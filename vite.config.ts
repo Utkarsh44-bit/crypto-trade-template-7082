@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/crypto-trade-template-7082/",
   server: {
     host: "::",
     port: 8080,
